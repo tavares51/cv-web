@@ -1,7 +1,7 @@
 .divider {
     display: block;
     margin: -5px 0 16px 0;
-    max-width: 150px;
+    max-width: 160px;
     border-bottom: 2px dashed #9FA2AB;
 }
 
@@ -60,9 +60,9 @@
 }
 
 .main-menu .menu-item {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
 }
 
 .main-menu .menu-link {
@@ -603,13 +603,13 @@
 
 /* Theme color style */
 /* Theme Red */
-.theme-red .topbar-nav .toggle-menu:hover {
-    color: #EF3724;
+/*.theme-red .topbar-nav .toggle-menu:hover {
+    color: #24ef2e;
 }
 
 .theme-red .main-menu .menu-link:hover,
 .theme-red .main-menu .active .menu-link {
-    background-color: #EF3724;
+    background-color: #5eef24;
 }
 
 .theme-red .filterable-button .btn.selected,
@@ -634,7 +634,7 @@
 
 .theme-red .post-grid .post-category {
     color: #EF3724;
-}
+}*/
 
 
 /* Theme Blue */
@@ -678,17 +678,17 @@
 
 
 /* Theme Green */
-.theme-green .topbar-nav .toggle-menu:hover {
+.theme .topbar-nav .toggle-menu:hover {
     color: #8cc63f;
 }
 
-.theme-green .main-menu .menu-link:hover,
+.theme .main-menu .menu-link:hover,
 .theme-green .main-menu .active .menu-link {
     background-color: #8cc63f;
 }
 
-.theme-green .filterable-button .btn.selected,
-.theme-green .filterable-button .btn:focus {
+.theme .filterable-button .btn.selected,
+.theme .filterable-button .btn:focus {
     background-color: #8cc63f;
     color: #fff;
     box-shadow: 0 0 0 2px #fff, 0 0 0 4px #8cc63f;

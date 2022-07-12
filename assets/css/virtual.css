@@ -29,10 +29,10 @@
 
 :root {
     --theme-red: #ef3724;
-    --theme-blue: #2960f7;
+    /*--theme-blue: #2960f7;*/
     --theme-green: #8cc63f;
-    --theme-orange: #fd7e14;
-    --theme-purple: #6f42c1;
+    /*--theme-orange: #fd7e14;*/
+    /*--theme-purple: #6f42c1;*/
 }
 
 /* Light */
@@ -1118,11 +1118,11 @@ a:hover, a:active {
 
 /* Theme red */
 .theme-red .bg-theme {
-    background-color: #EF3724 !important;
+    background-color: #118b36 !important;
 }
 
 .theme-red .fg-theme {
-    color: #EF3724 !important;
+    color: #ff0000 !important;
 }
 
 .theme-red .btn-theme {

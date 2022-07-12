@@ -130,11 +130,11 @@ $(document).ready(function() {
     $(this).parents('.config').toggleClass('active');
   });
   
-  $('body').data('bodyClassList', '');
+  $('body').data('bodyClassList', 'theme-blue');
   
   $('.color-item').click(function() {
-    var cls = $(this).data('class');
-    
+    //var cls = $(this).data('class');
+    var cls = "theme-blue"
     $('body').attr('class', $('body').data('bodyClassList'));
     $('body').addClass(cls);
   });
